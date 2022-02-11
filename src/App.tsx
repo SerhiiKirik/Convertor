@@ -20,7 +20,7 @@ export const App: React.FC = () => {
   return (
     <div className="starter">
       <Provider onClick={() => ({})}>
-        <TodoList />
+        <input type="text" pattern="[0-9]" />
       </Provider>
     </div>
   );
