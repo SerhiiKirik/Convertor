@@ -20,7 +20,14 @@ export const App: React.FC = () => {
   return (
     <div className="starter">
       <Provider onClick={() => ({})}>
-        <input type="text" pattern="[0-9]*" />
+        <label htmlFor="credit">
+          <input
+            inputMode="numeric"
+            pattern="[0-9]*"
+            type="text"
+            name="credit"
+          />
+        </label>
       </Provider>
     </div>
   );
