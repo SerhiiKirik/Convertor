@@ -22,7 +22,7 @@ export const App: React.FC = () => {
       <Provider onClick={() => ({})}>
         <label htmlFor="credit">
           <input
-            inputMode="numeric"
+            inputMode="decimal"
             pattern="[0-9]*"
             type="text"
             name="credit"
